@@ -11,11 +11,11 @@
     <project path="vendor/xiaomi/pipa" name="ai94iq/proprietary_vendor_xiaomi_pipa" revision="lmou"  remote="github" />
 
     <!-- device -->
-    <project path="device/xiaomi/pipa" name="ai94iq/android_device_xiaomi_pipa" revision="calyx-v"  remote="github" />
+    <project path="device/xiaomi/pipa" name="ai94iq/android_device_xiaomi_pipa" revision="calyxv"  remote="github" />
     <project path="device/xiaomi/sm8250-common" name="LineageOS/android_device_xiaomi_sm8250-common" revision="calyx-v"  remote="github" />
 
 
     <!-- kernel -->
-    <project path="kernel/xiaomi/sm8250" name="pipa-random/android_kernel_xiaomi_sm8250" remote="github" revision="lineage-22.1"  clone-depth="1000" />
+    <project path="kernel/xiaomi/sm8250" name="ai94iq/android_kernel_xiaomi_sm8250" remote="github" revision="lineage-22.1"  clone-depth="1000" />
 
 </manifest>

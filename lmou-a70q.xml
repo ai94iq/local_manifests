@@ -1,0 +1,16 @@
+<manifest>
+
+<remote name="github"
+            fetch="https://github.com/"
+            />
+
+<!--  a70q  -->
+<project path="device/samsung/a70q" name="ai94iq/android_device_samsung_a70q" remote="github" revision="lmou"/>
+<project path="device/samsung/sm6150-common" name="ai94iq/android_device_samsung_sm6150-common" remote="github" revision="lmou"/>
+<project path="kernel/samsung/sm6150" name="LineageOS/android_kernel_samsung_sm6150" remote="github" revision="lineage-21"/>
+<project path="vendor/samsung/a70q" name="a70q-lineage/proprietary_vendor_samsung_a70q" remote="github" revision="lineage-21"/>
+<project path="vendor/samsung/sm6150-common" name="a70q-lineage/proprietary_vendor_samsung_sm6150-common" remote="github" revision="lineage-21"/>
+<!--  hw/samsung  -->
+<project path="hardware/samsung" name="Linux4/android_hardware_samsung" remote="github" revision="lineage-21.0"/>
+
+</manifest>

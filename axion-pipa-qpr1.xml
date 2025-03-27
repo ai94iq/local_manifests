@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Device -->
+    <project path="device/xiaomi/sm8250-common" name="ai94iq/android_device_xiaomi_sm8250-common" remote="github" revision="axv" />
+    <project path="device/xiaomi/pipa" name="ai94iq/android_device_xiaomi_pipa" remote="github" revision="axv" />
+    
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm8250" name="ai94iq/android_kernel_xiaomi_sm8250" remote="github" revision="axksu" />
+    
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/sm8250-common" name="ai94iq/proprietary_vendor_xiaomi_sm8250-common" remote="github" revision="axv" />
+    <project path="vendor/xiaomi/pipa" name="ai94iq/proprietary_vendor_xiaomi_pipa" remote="github" revision="axv" />
+    
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.1" />
+    
+    <!-- Extra packages -->
+    <project path="packages/apps/XiaomiDolby" name="ai94iq/android_packages_apps_XiaomiDolby" remote="github" revision="lineage-22.0" />
+</manifest>

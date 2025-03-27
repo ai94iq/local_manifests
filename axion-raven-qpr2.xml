@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Device -->
+    <project path="device/google/raven" name="LineageOS/android_device_google_raven" remote="github" revision="lineage-22.2" />
+    <project path="device/google/raviole" name="LineageOS/android_device_google_raviole" remote="github" revision="lineage-22.2" />
+    <project path="device/google/gs101" name="LineageOS/android_device_google_gs101" remote="github" revision="lineage-22.2" />
+    
+    <!-- Kernel -->
+    <project path="device/google/raviole-kernels/6.1" name="device/google/raviole-kernels/6.1" remote="aosp-raviole" clone-depth="1" />
+    
+    <!-- Vendor -->
+    <project path="vendor/google/raven" name="TheMuppets/proprietary_vendor_google_raven" remote="github" revision="lineage-22.2" />
+</manifest>

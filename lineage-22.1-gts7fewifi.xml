@@ -3,7 +3,7 @@
 
     <!-- Device -->
     <project path="device/samsung/sm7325-common" name="Bush-cat/android_device_samsung_sm7325-common" remote="github" revision="lineage-22.1-gts7fewifi" />
-    <project path="device/samsung/gts7fewifi" name="Bush-cat/android_device_samsung_gts7fewifi_temp" remote="github" revision="lineage-22.1" />
+    <project path="device/samsung/gts7fewifi" name="Bush-cat/android_device_samsung_gts7fewifi" remote="github" revision="lineage-22.1-gts7fewifi" />
     
     <!-- Kernel -->
     <project path="kernel/samsung/sm7325" name="Bush-cat/android_kernel_samsung_sm7325" remote="github" revision="lineage-22.1-gts7fewifi" />
